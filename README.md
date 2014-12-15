@@ -36,4 +36,16 @@ rake db:seed
 
 This step may take a while as there are over seven thousand rows in the data set
 
-5. 
+5. Create the plans controller
+
+```
+rails generate controller Plan --skip-helper --skip-assets
+```
+
+6. Edit app/controllers/plans_controller.rb and config/routes.rb
+
+7. Run on localhost:3000
+
+```
+rails server
+```
